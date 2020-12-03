@@ -1,0 +1,20 @@
+﻿<Application x:Class="GoDollar.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:GoDollar"
+             >
+    <Application.Resources>
+        <ResourceDictionary>
+            <!--Allows views to access the view model-->
+            <hp:ViewModelLocator xmlns:hp="clr-namespace:GoDollar.Helpers" x:Key="Locator"/>
+            
+            <!--Allows views to access styles-->
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Styles/Colors.xaml"/>
+                <ResourceDictionary Source="Styles/Listbox.xaml"/>
+                <ResourceDictionary Source="Styles/DataGrid.xaml"/>
+                <ResourceDictionary Source="Styles/Buttons.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

@@ -1,0 +1,48 @@
+﻿<Window x:Class="GoDollar.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GoDollar"
+        xmlns:controls="clr-namespace:GoDollar.UserControls"
+        mc:Ignorable="d"
+        Icon="\godollar-window.ico"
+        Title="GoDollar" MinHeight="450" MinWidth="900" WindowStartupLocation="CenterScreen">
+    <Grid>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="175"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+
+
+
+        <Border BorderThickness="0 0 2 0" BorderBrush="{StaticResource AccentGreyBrush}">
+            <StackPanel Background="{StaticResource BlackBrush}">
+                <!--Title-->
+                <TextBlock 
+                    Padding="10 15"
+                    HorizontalAlignment="Center"
+                    Text="GoDollar"
+                    FontSize="24"
+                    Foreground="{StaticResource WhiteBrush}"
+                    FontWeight="Bold"/>
+                
+                <!--Navigation-->
+                <ListBox x:Name="Tabs" SelectionChanged="Tabs_SelectionChanged">
+                    <ListBoxItem Content="Transactions"/>
+                    <ListBoxItem Content="Budget"/>
+                    <ListBoxItem Content="User Data"/>
+                </ListBox>
+            </StackPanel>
+        </Border>
+
+        <Border  Grid.Column="1">
+            <ContentControl x:Name="Content" />
+        </Border>
+        
+
+
+    </Grid>
+</Window>

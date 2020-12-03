@@ -1,0 +1,51 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:GoDollar.Styles">
+
+    <Color x:Key="Black">Black</Color>
+    <SolidColorBrush x:Key="BlackBrush" Color="{StaticResource Black}" />
+
+    <Color x:Key="AccentGrey">#313131</Color>
+    <SolidColorBrush x:Key="AccentGreyBrush" Color="{StaticResource AccentGrey}" />
+
+    <Color x:Key="LightGrey">#657A8D</Color>
+    <SolidColorBrush x:Key="DisabledGreyBrush" Color="{StaticResource LightGrey}" /> 
+
+    <Color x:Key="MouseOverBlue">#6CC3F7</Color>
+    <SolidColorBrush x:Key="MouseOverBlueBrush" Color="{StaticResource MouseOverBlue}" />
+
+    <Color x:Key="White">#F6F7F8</Color>
+    <SolidColorBrush x:Key="WhiteBrush" Color="{StaticResource White}" />
+
+    <Color x:Key="DefaultBlue">#20A4F3</Color>
+    <SolidColorBrush x:Key="DefaultBlueBrush" Color="{StaticResource DefaultBlue}" />
+
+    <Color x:Key="ShadowBlue">#1A85C5</Color>
+    <SolidColorBrush x:Key="ShadowBlueBrush" Color="{StaticResource ShadowBlue}" />
+
+    <Color x:Key="MouseClickBlue">#579DC8</Color>
+    <SolidColorBrush x:Key="MouseClickBlueBrush" Color="{StaticResource MouseClickBlue}" />
+
+    <Color x:Key="DefaultRed">#E8324D</Color>
+    <SolidColorBrush x:Key="DefaultRedBrush" Color="{StaticResource DefaultRed}" />
+
+    <Color x:Key="ShadowRed">#A92538</Color>
+    <SolidColorBrush x:Key="ShadowRedBrush" Color="{StaticResource ShadowRed}" />
+
+    <Color x:Key="MouseOverRed">#EC586F</Color>
+    <SolidColorBrush x:Key="MouseOverRedBrush" Color="{StaticResource MouseOverRed}" />
+
+    <Color x:Key="MouseClickRed">#BF475A</Color>
+    <SolidColorBrush x:Key="MouseClickRedBrush" Color="{StaticResource MouseClickRed}" />
+
+
+    <Color x:Key="GoodGreen">SeaGreen</Color>
+    <SolidColorBrush x:Key="GoodGreenBrush" Color="{StaticResource GoodGreen}" />
+
+    <Color x:Key="WarningRed">IndianRed</Color>
+    <SolidColorBrush x:Key="WarningRedBrush" Color="{StaticResource WarningRed}" />
+
+    <Color x:Key="TransparentGrey">#45000000</Color>
+    <SolidColorBrush x:Key="TransparentGreyBrush" Color="{StaticResource TransparentGrey}" />
+
+</ResourceDictionary>
